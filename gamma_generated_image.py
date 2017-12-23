@@ -3,7 +3,6 @@ import re
 import shutil
 import cv2
 import numpy as np 
-import shutil
 
 def adjust_gamma(image , gamma = 1.0):
 	invgamma = 1 / gamma
